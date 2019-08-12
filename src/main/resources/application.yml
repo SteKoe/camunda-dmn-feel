@@ -1,0 +1,5 @@
+camunda:
+  datasource:
+    jdbcUrl: jdbc:h2:mem:camundadb
+    username: sa
+    password: password
