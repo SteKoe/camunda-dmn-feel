@@ -1,9 +1,9 @@
 package de.stekoe.camunda
 
-import junit.framework.TestCase.assertFalse
-import junit.framework.TestCase.assertTrue
 import org.camunda.bpm.engine.DecisionService
 import org.camunda.bpm.engine.variable.impl.value.PrimitiveTypeValueImpl.BooleanValueImpl
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.springframework.beans.factory.annotation.Autowired

@@ -1,9 +1,9 @@
 package de.stekoe.camunda
 
-import junit.framework.TestCase.assertFalse
-import junit.framework.TestCase.assertTrue
 import org.camunda.feel.interpreter.ValBoolean
 import org.camunda.feel.interpreter.ValString
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class CustomFeelFunctionsTest {
